@@ -7,7 +7,7 @@
 3. Follow the onboarding steps
    - Copy website repository
    - Explore website content structure
-   - Deploy website with the host you prefer
+   - Deploy website with the host you prefer - Shout out to our sponsor Netlify ;) 
 4. Modify your site's content
 5. When you're ready to view it in Framer, go to Settings --> API keys
    - Grab the Space ID
