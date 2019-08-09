@@ -4,8 +4,10 @@ import { FiDownload } from "react-icons/fi";
 import { IoIosBasketball } from "react-icons/io";
 import Instructor from "./components/instructor";
 import Download from "./components/download";
+import { Link } from "gatsby";
 
 export default {
+	Link,
 	Instructor,
 	Download,
 	DownloadIcon: FiDownload,
