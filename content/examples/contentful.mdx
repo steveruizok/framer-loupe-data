@@ -1,0 +1,65 @@
+# Contentful
+
+<Download title="Contentful.framerx" url="/static/Contentful.framerx" />
+
+Follow the steps below to connect this example file above to a Contentful space.
+
+## Sign Up for Contentful
+
+If you already have a Contentful account, you can skip ahead to the section **Create the Example Blog Space**.
+
+1. [Sign up for a free Contentful account](https://www.contentful.com/sign-up/)
+2. When prompted "How do you usually work with content?", click **Deploy a website in 3 steps**
+3. On the onboarding page, click **Skip** in the upper-right corner
+
+## Create the Example Blog
+
+The _Contentful.framerx_ file is designed to work with Contentful's **Blog Example Space**, so we'll need to create this space.
+
+1. Open the top left menu and select **Create Space**
+2. Select the **Free** plan
+3. On the next screen, enter a name for your space
+4. In the space options, select **Create an example space**
+5. In the example tabs, select **Blog**
+6. Click **Proceed to Confirmation**
+7. Click **Confirm and Create Space**
+8. When the space is ready, click **Get started**
+9. On the next screen, click **Use the API**
+
+This will open a page that includes your space's **Space ID** and **Access Token**.
+
+## Connect the Framer X project
+
+Now that you have the example space, let's give the Framer X project access to the project's data.
+
+1. Open the _Contentful.framerx_ file
+2. In the Code tab, click the _access.ts_ file
+3. From the Contentful website, copy your space's **Space ID** to the variable `SPACE_ID`
+4. And then copy your space's **Content Delivery API - access token** to the variable `ACCESS_TOKEN`
+
+The result should look something like this:
+
+```ts
+const SPACE_ID = "420s9qcxkt8l";
+const ACCESS_TOKEN = "r9i8F420zI7mr4_JY_sWT0c30SmtLyqEINWXDFmx5BA";
+```
+
+The Framer X project is now connected to your Contentful space! It will pull data from that space each time it reloads. **Preview the Frame named Export to see it in action.**
+
+## Edit your content
+
+Now that your Framer project knows how to get its content from your Contentful space, any changes you make to your content will be reflected in your prototype.
+
+1. In your Contentful space, click the **Content** tab
+2. Click on the post named **Automate with Blog Posts**
+3. Change the **Title** to something more exciting
+4. Change the **Body** to something clever yet accessible
+5. Click **Publish changes**
+
+And back in Framer, refresh your prototype to see your changes.
+
+## Learn More
+
+To learn more about using Contentful with Framer X, check out Contentful's [Delivery API Reference](https://www.contentful.com/developers/docs/references/content-delivery-api/). Under the hood, the example project uses the [Contentful JavaScript Delivery SDK](https://contentful.github.io/contentful.js/contentful/7.9.1/) to interface with Contentful.
+
+Good luck!
