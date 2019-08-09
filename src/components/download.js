@@ -14,6 +14,7 @@ function Download({ title = "Project.framerx", url = "" }) {
 					placeContent: "center",
 					py: 3,
 					px: 4,
+					mb: 4,
 					borderRadius: 8,
 					bg: "primary",
 					color: "muted",
