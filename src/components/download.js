@@ -1,13 +1,18 @@
 /** @jsx jsx */
-import { jsx, Box, Flex } from "theme-ui";
+import { jsx } from "theme-ui";
 import { MdFileDownload } from "react-icons/md";
 
 function Download({ title = "Project.framerx", url = "" }) {
 	return (
-		<a href={url} sx={{ textDecoration: "none" }}>
+		<a
+			target="_blank"
+			rel="noopener noreferrer"
+			href={url}
+			sx={{ textDecoration: "none" }}
+		>
 			<div
 				sx={{
-					width: "fit-content",
+					width: ["auto", "fit-content"],
 					display: "flex",
 					flexDirection: "row",
 					placeItems: "center",

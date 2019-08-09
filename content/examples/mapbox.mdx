@@ -1,0 +1,31 @@
+# Mapbox
+
+<Download
+	title="Mapbox.framerx"
+	url="https://www.dropbox.com/s/fq2s37sxo51a1ut/Mapbox.framerx?dl=0"
+/>
+
+## Instructions
+
+Follow the steps below to connect the example file above to a Mapbox account.
+
+1. Sign in or [sign up](https://account.mapbox.com/auth/signup/) to Mapbox
+2. Open the _Mapbox.framerx_ file
+3. In the Code tab, click on the _access.ts_ file
+4. Copy your **Access Token** from your [Mapbox Account](https://account.mapbox.com/) to the variable `ACCESS_TOKEN`
+
+The result should look something like this:
+
+```ts
+const ACCESS_TOKEN = "pk.420eyJ1Ijoic3Rldm...";
+```
+
+**Preview the Frame named Export to see it in action.** Happy exploring.
+
+> **Note:** To use the real-time-geolocation features, you'll need to open the preview in your web browser or use a [Live Preview](https://www.framer.com/support/using-framer-x/live-preview/) to open the preview on your mobile device.
+
+## Learn More
+
+The example file uses components from the [Learn Design System](https://store.framer.com/package/steveruizok/education) package from the Framer X Store, including its [Map](https://framer-learn-docs.netlify.com/docs/Map) component. You can find a second example of using this component [here](https://github.com/framer/framer-education/tree/master/Projects/MapMarkers.framerfx), in the `framer-education` repository. This component is pretty self-contained, so you could create your own by copying the component's [source code](https://github.com/framer/framer-education/blob/master/Learn/learn.framerfx/code/Map.tsx) into your project, installing the required packages, and continuing from there.
+
+To learn more about how to interact with the Mapbox API directly (as in the example's `map-actions.ts` file), see the [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) docs.

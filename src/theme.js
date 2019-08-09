@@ -42,7 +42,7 @@ export default {
 		heading,
 		display: {
 			variant: "textStyles.heading",
-			fontSize: [5, 6, 7],
+			fontSize: [6, 7],
 			mt: 3
 		}
 	},
