@@ -1,7 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: "Docs",
-		description: "Docs starter"
+		title: "Framer Loupe 2019",
+		description:
+			"A companion website for the Design with Data workshop at Framer Loupe 2019."
 	},
 	plugins: [
 		"gatsby-plugin-meta-redirect",
